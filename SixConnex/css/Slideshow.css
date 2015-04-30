@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document for Brochure Rotator by Fana*/  
+    div#tmpSlideshow {  
+       position: relative; 
+	   height: 267px;  
+       width: 182px; 
+	   background:url(../images/brochure/brochure_bg.png) no-repeat;
+
+  }  
+   div.tmpSlide {  
+       position: absolute;  
+       width: 182px;  
+       height: 267px;  
+       display: none; 
+	    
+   }  
+   div.tmpSlide img {  
+       width: 182px; 
+	   height:267px;
+	   border:none;
+	   
+   }  
+   div#tmpSlideshowControls {  
+       position: absolute;  
+       bottom: 10px;  
+       left: 10px;  
+       width: 175px;  
+   }  
+  div.tmpSlideshowControl {  
+       float: left;  
+       margin: 0 5px 0 0;  
+       width: 8px;  
+       height: 8px;  
+       cursor: pointer;  
+	   background-image: url(../images/brochure/bullet.png);  
+   }  
+   div.tmpSlideshowControl span {  
+       line-height: 10px;  
+       vertical-align: middle;  
+   }  
+   div.tmpSlideshowControlOn {  
+       background-image: url(../images/brochure/bullet_on.png);  
+	   width: 10px;  
+       height: 10px; 
+   }  
+   div.tmpSlideshowControlActive {  
+	   background-image:url(../images/brochure/bullet_on.png);
+	   height:10px;
+	   width:10px;
+   }  
+   div.tmpSlideCopy {  
+       position: absolute;  
+       left: 565px;  
+       top: 20px;  
+       width: 170px;  
+   }  
+  div#tmpSlideshow h4 {  
+       color: #b90f23;  
+       text-transform: uppercase;  
+       font: 14px Arial, sans-serif;  
+       margin: 10px 0;  
+   }  
+   div.tmpSlideCopy p {  
+       font: 11px Arial, sans-serif;  
+       line-height: 1.75em;  
+   }  
+

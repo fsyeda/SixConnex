@@ -1,0 +1,83 @@
+/* base.css */
+ul#primary li a {
+	line-height: 30px;
+}
+ul#primary {
+	margin-left:3px;
+	width:700px;
+}
+ul#primary li.menu-334 {
+	padding-left: -8px;
+}
+ul#primary li.menu-334.active-trail a {
+        text-shadow:  1px 1px #4e7833;
+        background:transparent;
+}
+#col4 .pager {
+	margin-top:-30px;
+}
+#video-popup {
+	left:50%;
+	margin-left:-365px;
+}
+/* END base.css */
+
+/* home.css */
+#ss0 {
+	margin-top:-2px;
+}
+#col1 {
+	padding-right: 23px;
+}
+#col2 .nav{
+	margin-top:0; /* reset */
+	position:relative;
+}
+#col2 #next{
+	margin-left:0; /* reset */
+	position:absolute;
+	top:18px;
+	left:214px;
+}
+#col2 #prev {
+	padding-left:0; /* reset */
+	position:absolute;
+	top:18px;
+	left:6px;
+}
+#col2 p.text{
+	margin-top:0; /* reset */
+	margin-left:0; /* reset */
+	position:absolute;
+	top:12px;
+	left:12px;
+}
+#col2 #Virtual_slides img{
+	margin-top:0; /* reset */
+	position:absolute;
+	top:102px;
+}
+/* END home.css */
+
+/* START style.css */
+#header {
+	height:70px;
+	overflow:hidden;
+	padding-top:14px;
+}
+/* Company */
+#Latestnews .views-field-title-1 { /* news */
+	float:none;
+}
+/* END Latestnews */
+/* Knowledge center */
+.refblock2{
+    margin-bottom:0;
+}
+/* END Knowledge center */
+
+/* Platform */
+.GreenTopBar{
+    overflow:hidden;
+}
+/* END Platform */

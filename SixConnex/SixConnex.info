@@ -1,0 +1,31 @@
+name = SixConnex
+description = 6Connex Custom theme
+core = "6.x"
+project = "SixConnex" 
+
+engine = phptemplate
+
+regions[header] = Header
+regions[footer] = Footer
+regions[pre_content] = Pre Content
+regions[content] = Content
+regions[left] = Left Sidebar
+regions[right] = Right Sidebar
+
+features[] = search
+features[] = favicon
+
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/styleJ.css
+stylesheets[all][] = css/styleF.css
+stylesheets[all][] = css/foot.css
+
+scripts[] = js/brochure.js
+scripts[] = js/solutions.js
+scripts[] = js/partners.js
+scripts[] = js/partnerDirectory.js
+scripts[] = js/jquery.tooltip.min.js
+scripts[] = js/scripts.js
+scripts[] = js/video/swfobject.js
+scripts[] = js/dropdown.js

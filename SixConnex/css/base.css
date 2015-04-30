@@ -1,0 +1,260 @@
+/* 
+
+GLOBAL stylesheet for 6Connex.com
+
+*/
+
+/* RESET */
+html,body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,dl,dt,dd,pre,form,p,blockquote,textarea,fieldset,input,th,td{ margin: 0; padding: 0; }
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+/* END RESET */
+
+/* TYPE */
+a:link,a:visited {
+	color: #00aed3;
+	text-decoration:none;
+	outline:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+/* END TYPE */
+
+/* LAUOUT */
+body {
+    color: #5f5f5f;
+    font-family: Tahoma, Verdana, Arial, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+#header {
+	height: 68px; 
+	padding-top: 16px;
+	width:1004px;
+}
+
+#top_head{
+	float:right;
+	width:250px;
+	
+}
+.dropdown {
+	float:left;
+	padding-right:5px;
+	font-size:11px;}
+.dropdown dt {
+	height:21px;
+	width:102px;
+	cursor:pointer;
+	background:transparent url(../images/front/login.png)}
+	
+.dropdown dt:hover {
+	background:url(../images/front/login.png)}
+.dropdown dd {
+	position:absolute;
+	overflow:hidden;
+	width:204px;
+	display:none;
+	background:#fff;
+	z-index:200;
+	opacity:0}
+.dropdown ul {
+	border:1px solid #ccc;
+	list-style:none;}
+	.dropdown li {display:inline}
+	.dropdown a, .dropdown a:active, .dropdown a:visited {display:block; padding:5px; color:#333; text-decoration:none; background:#fff;}
+	.dropdown a:hover {background:#fff; color:#00AED3}
+	.dropdown .underline {border-bottom:1px solid #ccc}
+.login{
+	float:right;
+	width:105px;
+	margin:0 10px 5px 0;
+	border:none;
+}
+.icons {
+	float:right;
+	width:90px;
+	margin:2px 5px 5px 0;
+}
+#logo-title {
+	width:119px;
+	height:23px;
+	float: left;
+	padding:28px 0 0 5px;
+}
+#navigation {
+	height: 43px;
+	width: 869px;
+	float: right;
+	vertical-align: middle;
+}
+.clear {
+	clear: both
+}
+a.facebook {
+    background:url(../images/facebook_icon.png) no-repeat;
+    height:17px;
+    width:17px;
+    float:left;
+    margin-right:5px;
+}
+a.twitter{
+    background:url(../images/twitter_icon.png) no-repeat;
+    height:17px;
+    width:17px;
+    float:left;
+    margin-right:5px;
+}
+a.linkedin{
+    background:url(../images/linkedin.png) no-repeat;
+    height:17px;
+    width:17px;
+    float:left;
+    margin-right:5px;
+
+}
+a.rss{
+    background:url(../images/rss_icon.png) no-repeat;
+    height:17px;
+    width:17px;
+    float:left;
+}
+/* END LAYOUT */
+
+/* NAVIGATION */
+ul#primary {
+	font-family: Verdana, Arial, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	float: left;
+	width: 700px;
+	margin-left: 7px;
+}
+ul#primary li {
+	text-align:center;
+	float: left;
+}
+ul#primary li a {
+	height: 33px;
+	line-height: 32px;
+	display: block;
+	color: #fff;
+}
+ul#primary li.menu-334 {
+	width:104px;
+}
+ul#primary li.menu-334 a{
+	padding-left:12px;
+}
+ul#primary li.menu-486 {
+	width:152px;
+}
+ul#primary li.menu-1034 {
+	width:95px;
+}
+ul#primary li.menu-646 {
+	width:90px;
+}
+ul#primary li.menu-647 {
+	width:86px;
+}
+ul#primary li.menu-401 {
+	width:82px;
+}
+ul#primary li.menu-1035 {
+	width:82px;
+}
+
+
+ul#primary li a.active {
+	text-shadow:  1px 1px #4e7833;
+}
+ul#primary li a:hover {
+	text-decoration:none;
+	color:#70b544;
+}
+
+ul#primary li.active a, ul#primary li.active-trail a {
+	text-shadow:  1px 1px #4e7833;
+	background-color: #70b544;
+}
+ul#primary li.active.first a, ul#primary li.active-trail.first a {
+	background-color: transparent;
+}
+
+ul#primary li.menu-486 a.active,
+ul#primary li.menu-646 a.active,
+ul#primary li.menu-647 a.active,
+ul#primary li.menu-401 a.active,
+ul#primary li.menu-1035 a.active,
+ul#primary li.menu-1034 a.active {
+	background:url("../images/main_nav.png") no-repeat -100px -44px;
+}
+
+ul#primary li.menu-334.active-trail a {
+        text-shadow:  1px 1px #4e7833;
+        background:url("../images/main_nav.png") no-repeat -2px -44px transparent;
+}
+ul#primary li.menu-334 a.active {
+	background:url("../images/main_nav.png") no-repeat -2px -44px;
+	text-decoration:none;
+}
+#search-theme-form {
+	float: left;
+}
+#search {
+	display: block;
+	float: left;
+	padding: 8px 0 0 7px;
+}
+#search .form-item {
+	float: left;
+	display: block;
+	background-color:#dbdbdb;
+	margin:0; /* overwrite system.css */
+}
+#search .form-item input{
+	float: left;
+	height: 17px;
+	width: 120px;
+	border: 0px;
+	font-size: 9px;
+	line-height: 17px;
+	background-color:#dbdbdb;
+}
+#search .form-submit {
+	float: left;
+}
+/* NAVIGATION */
+
+
+/* Quick References */
+ul.Ref
+{
+    color:#5F5F5F;
+    font-size:12px;
+    line-height:20px;
+    padding:5px 10px 15px 15px;
+
+}
+/* END Quick References */
+
+
+
+/* tooltip */
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	background-color: #eee;
+	border:solid 1px #999999;
+	padding: 5px;
+	width:300px;
+	height:auto;
+	font-size:11px;
+}
+/* END tooltip */
